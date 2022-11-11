@@ -27,14 +27,14 @@ Var
 Inicio
 
    y <- 1
-   //Inicio do sistema airbnb, tela onde o funcionario comeÁa a cadastrar
+   //Inicio do sistema airbnb, tela onde o funcionario come√ßa a cadastrar
    //o cliente
    repita
       escreval("===== BEM VINDO AO SISTEMA AIRBNB =====")
       escreval()
       escreval("==      1-CADASTRO DE CLIENTES=====")
       escreval("==      2-EXIBIR LISTA DE CLIENTES")
-      escreval("==      5-Encerrar programa========     ")
+      escreval("==      3-Encerrar programa========     ")
       escreval()
       escreval()
       leia (x)
@@ -65,7 +65,7 @@ caso 1
            para cont2 de 1 ate 10 faca
               se (matriz[cont1,cont2]=0) entao
               escreva(" Quarto ",cont2)
-              escreval(" = QUARTO DISPONÌVEL= ")
+              escreval(" = QUARTO DISPON√≠VEL= ")
               senao
               Escreval(" = QUARTO OCUPADO= ")
               fimse
@@ -86,7 +86,7 @@ caso 1
            para cont2 de 1 ate 10 faca
               se (matriz[cont1,cont2]=0) entao
               escreva(" Quarto ",cont2)
-              escreval(" = QUARTO DISPONÌVEL= ")
+              escreval(" = QUARTO DISPON√≠VEL= ")
               senao
               Escreval(" = QUARTO OCUPADO= ")
               fimse
@@ -94,190 +94,190 @@ caso 1
          fimpara
          limpatela
 
-          Escreval("Confirmar locaÁ„o do QUARTO 1 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 1 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
           escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,1] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 2
-          Escreval("Confirmar locaÁ„o do QUARTO 2 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 2 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
           escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,2] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 3
 
-          Escreval("Confirmar locaÁ„o do QUARTO 3 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 3 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,3] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 4
-          Escreval("Confirmar locaÁ„o do QUARTO 4 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 4 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,4] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
           caso 5
 
-          Escreval("Confirmar locaÁ„o do QUARTO 5 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 5 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,5] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 6
-          Escreval("Confirmar locaÁ„o do QUARTO 6 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 6 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,6] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
           
           caso 7
-          Escreval("Confirmar locaÁ„o do QUARTO 7 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 7 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,7] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
 
           caso 8
-          Escreval("Confirmar locaÁ„o do QUARTO 8 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 8 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,8] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 9
 
-          Escreval("Confirmar locaÁ„o do QUARTO 9 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 9 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,9] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
 
           caso 10
-          Escreval("Confirmar locaÁ„o do QUARTO 10 ?: ")
-          Escreval("1-Sim    2-N„o")
+          Escreval("Confirmar loca√ß√£o do QUARTO 10 ?: ")
+          Escreval("1-Sim    2-N√£o")
           leia(resp)
           se (resp=1)entao
            escreval("Valor a ser pago: R$",pag(a,b))
-          escreval("LocaÁ„o confirmada")
+          escreval("Loca√ß√£o confirmada")
           escreval()
           matriz[1,10] <-1
           senao
            se(resp=2)entao
-           escreval("LocaÁ„o cancelada")
+           escreval("Loca√ß√£o cancelada")
            fimse
              se(resp<>1 e 2)entao
-             escreval("Comando n„o reconhecido, voltando para o inicio...")
+             escreval("Comando n√£o reconhecido, voltando para o inicio...")
              fimse
           fimse
           
           outrocaso
-          escreval("Comando n„o reconhecido, voltando para o inicio...")
+          escreval("Comando n√£o reconhecido, voltando para o inicio...")
           limpatela
           fimescolha
 
@@ -288,9 +288,13 @@ para cont1 de 1 ate 10 faca
  escreval()
 fimpara
 
+
+caso 3
+escreval("Encerrando programa...")
+
 fimescolha
 
-ate (x=2)
+ate (x=3)
    
    
    
