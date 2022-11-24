@@ -286,6 +286,8 @@ caso 2
 para cont1 de 1 ate 10 faca
  escreval("Cliente cadastrado: ",clientes[cont1]," == CPF cadastrado: ",cpf[cont1]," == TELEFONE PARA CONTATO: ",num[cont1])
  escreval()
+ escreval()
+
 fimpara
 
 
