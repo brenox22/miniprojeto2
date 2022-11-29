@@ -17,7 +17,7 @@ Var
    resp:inteiro
    pag:real
    a,b:real
-   
+
    funcao pag(a,b:real):real
    inicio
    retorne 150.00+10
@@ -79,9 +79,9 @@ caso 1
           escolha(quartos1[cont1])
 
           caso 1
-          
-          
-          
+
+
+
           para cont1 de 1 ate 1 faca
            para cont2 de 1 ate 10 faca
               se (matriz[cont1,cont2]=0) entao
@@ -106,7 +106,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -124,7 +124,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -143,7 +143,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -161,7 +161,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -179,7 +179,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -197,11 +197,11 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
-          
+
           caso 7
           Escreval("Confirmar locação do QUARTO 7 ?: ")
           Escreval("1-Sim    2-Não")
@@ -215,7 +215,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -234,7 +234,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -253,7 +253,7 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
@@ -271,11 +271,11 @@ caso 1
            se(resp=2)entao
            escreval("Locação cancelada")
            fimse
-             se(resp<>1 e 2)entao
+             se(resp<>1)e (resp<>2)entao
              escreval("Comando não reconhecido, voltando para o inicio...")
              fimse
           fimse
-          
+
           outrocaso
           escreval("Comando não reconhecido, voltando para o inicio...")
           limpatela
@@ -297,8 +297,8 @@ escreval("Encerrando programa...")
 fimescolha
 
 ate (x=3)
-   
-   
-   
-   
+
+
+
+
 Fimalgoritmo
